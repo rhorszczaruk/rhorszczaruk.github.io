@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#menu {
+    text-align: center;
+    background: #222;
+    height: 100%;
+}
+
+#menu .menu-item {
+    display:inline-block;
+    list-style: none;
+    padding: 25px;
+}
+
+#menu .menu-item > a {
+  
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu > ul {
+    margin: 0;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+#main-header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+#about{
+    text-align: center;
+    position: relative;
+}
+
+#about-header {
+    font-size: 30px;
+}
+
+#contact {
+    
+    background-color: #222;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+#contact-header {
+    font-size: 30px;
+}
+
+#contact a {
+    text-decoration: underline;
+    color: #fff;
+}

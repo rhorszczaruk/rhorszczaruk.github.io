@@ -1,0 +1,23 @@
+html {
+    font-size: 20px;
+}
+
+#container {
+    font-size: 30px;
+}
+
+#container, div > div:not(.mm) {
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+#mm {
+    background-color:darkorchid;
+    margin-bottom: 20px;
+}
+
+p {
+    color: brown;
+    outline-style: inset;
+    background-color: darksalmon;
+}
