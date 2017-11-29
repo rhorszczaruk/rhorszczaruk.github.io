@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+}
+
+#glowny {
+    position: relative;
+    margin: 300px 0 0 300px;
+
+}
+
+#glowny, .pierwszy, .drugi, .trzeci, .kwadrat {
+  position: absolute;   
+}
+
+#glowny .pierwszy {
+  left:0px;
+}
+
+#glowny .drugi {
+  left:100px;
+}
+
+#glowny .trzeci {
+  left:200px;
+}
+
+#glowny .kwadrat {
+    width:100px;
+    height: 100px;
+    border: 2px solid white;
+}
+
+#glowny .pierwszy .jeden {
+    background-color: red;
+    top: 0px;
+}
+
+#glowny .pierwszy .dwa {
+    background-color: yellow;
+    top: 100px;
+}
+
+#glowny .pierwszy .trzy {
+    background-color: darkviolet;
+    top: 200px;
+}
+
+#glowny .drugi .cztery {
+    background-color: blue;
+    top: 0px;
+}
+
+#glowny .drugi .piec {
+    background-color: black;
+    top: 100px;
+}
+
+#glowny .drugi .szesc {
+    background-color: gray;
+    top: 200px;
+}
+
+#glowny .trzeci .siedem {
+    background-color: green;
+    top: 0px;
+}
+
+#glowny .trzeci .osiem {
+    background-color: orange;
+    top: 100px;
+}
+
+#glowny .trzeci .dziewiec {
+    background-color: pink;
+    top: 200px;
+}
+
+#glowny .kolo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 25px 25px 25px 25px;
+    
+}
+
+#glowny .pierwszy .jeden .pierwsze {
+    background-color:pink;
+}
+
+
+#glowny .pierwszy .dwa .drugie {
+    background-color:green;
+}
+
+
+
+#glowny .pierwszy .trzy .trzecie {
+    background-color: yellow;
+}
+
+
+#glowny .drugi .cztery .czwarte {
+    background-color:gray;
+}
+
+
+#glowny .drugi .piec .piate {
+    background-color: red;
+}
+
+#glowny .drugi .szesc .szoste {
+    background-color: yellow;
+}
+
+#glowny .trzeci .siedem .siodme {
+    background-color: darkviolet;
+}
+
+#glowny .trzeci .osiem .osme {
+    background-color: blue;
+}
+
+#glowny .trzeci .dziewiec .dziewiate {
+    background-color: black;
+}
+
